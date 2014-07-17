@@ -1,0 +1,13 @@
+
+------IGNORE THE IMPOSSIBLE INNOVATIONS TREE ON TREELOADER------
+
+,it needs to be updated. Just make sure that treeloader is installed.
+
+For now, you need to install the tree manually, which ins't too hard.
+Here's how:
+
+1. Copy the tree.cfg found in the Tech Tree Files folder included in this package to your clipboad.
+2. Create a new save in Kerbal Space Program. Use the stock tech tree.
+3. Find that save's folder in KSPLOCATION/saves/
+4. Open the folder and delete notree.cfg.
+5. Paste the tree.cfg into that save folder and your done!
