@@ -10,14 +10,12 @@ namespace ImpossibleInnovations
         public void filterOn()
         {
             intakeActive = "Active";
-            this.part.force_activate();
             Events["toggleFilter"].guiName = "Turn Collector Off";
         }
 
         public void filterOff()
         {
             intakeActive = "Inactive";
-            this.part.deactivate();
             Events["toggleFilter"].guiName = "Turn Collector On";
         }
 
@@ -52,21 +50,12 @@ namespace ImpossibleInnovations
             filterOff();
         }    
 
-        public override void OnInitialize()
+        public void FixedUpdate()
         {
             if (intakeActive == "Active")
             {
-                this.part.force_activate();
+                part.RequestResource("Hydrogen", ((this.part.vessel.atmDensity * -1.4f) - 0.01f) * TimeWarp.fixedDeltaTime);
             }
-           
-            base.OnInitialize();
-        }
-
-        public override void OnFixedUpdate()
-        {
-            this.part.RequestResource("Hydrogen", ((this.part.vessel.atmDensity * -1.4f) - 0.01f) * TimeWarp.fixedDeltaTime);
-
-            base.OnFixedUpdate();
         }
     }
 }

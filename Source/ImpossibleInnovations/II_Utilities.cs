@@ -44,12 +44,5 @@ namespace ImpossibleInnovations
             return maxAmount;
         }
         #endregion
-
-        public static float doubleToFloat(double input)
-        {
-            float output = (float) input;
-
-            return output;
-        }
     }
 }
