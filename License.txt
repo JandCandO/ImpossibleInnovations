@@ -5,4 +5,5 @@ Impossible Innovations includes the mod Module Manager by ialdabaoth (under the 
 Impossible Innovations includes the mod Tweakscale by Biotronic (under the WTFPL license)
 
 Impossible Innovations uses code adapted from:
--Karbonite by RoverDude //For some code that checks the amount of a resource throughout the entire vessel. Couldn't have done it myself
+-Karbonite by RoverDude under the Creative Commons 4.0 Attribution-NonCommercial-ShareAlike License
+//For some code that checks the amount of a resource throughout the entire vessel. Couldn't have done it myself

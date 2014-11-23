@@ -1,5 +1,6 @@
 0.7:
 ADDED FEATURES:
+
 	Included TweakScale in Impossible Innovations. This drastically changed the part layout. Here's the new system:
 		Engines:
 			There are only 4 deuterium engines now; a standard model, a standard radial model, a High-Efficiency model, and a Low-Efficiency model.
@@ -30,6 +31,7 @@ ADDED FEATURES:
 
 
 CHANGED FEATURES / NOTES:
+
 	THIS UPDATE WILL BREAK EVERY SHIP THAT USES IMPOSSIBLE INNOVATIONS PARTS, WITHOUT EXCEPTION.
 
 	I have left the hydrogen processing system, the reaction wheel system, and the ionized wing out of the TweakScale system for now. They will come eventually.
@@ -41,6 +43,7 @@ CHANGED FEATURES / NOTES:
 	I left the radial battery pack out of the TweakScale system because it will be replaced soon.
 
 REMOVED FEATURES:
+
 	Treeloader is no longer! I will be using TechManager in the next release.
 
 	I removed pretty much every engine and tank, except for the ones currently implemented.
