@@ -1,3 +1,20 @@
+0.8:
+Added a stable, but unbalanced tech tree, powered by TechManager!
+
+New models for aluminum strut, iridium strut, radial battery pack, and the x8 deuterium tank!
+
+Radial battery is now rescalable.
+
+Fixed the positions of a few placement nodes.
+
+All nodes are now size 1! That means no more massive 3-meter nodes on a tiny 1-meter part.
+
+Support for the Addon Version Checker by cybutek was added! It isn't in the release package, but the option to monitor the version of this mod is now available if you want to do it. Just install AVC.
+
+4-Kerbal command pod now uses tritium instead of ElectricCharge for torque. The weak RTG is still in place, though.
+
+The 4-Kerbal command pod's IVA was removed due to weird clipping stuff while inside.
+
 0.7:
 ADDED FEATURES:
 
