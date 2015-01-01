@@ -85,28 +85,28 @@ namespace ImpossibleInnovations
             {
                 part.RequestResource("Hydrogen", TimeWarp.fixedDeltaTime * 2);
                 part.RequestResource("Deuterium", TimeWarp.fixedDeltaTime * -2);
-                part.RequestResource("ElectricCharge", converterElectricConsumption);
+                part.RequestResource("ElectricCharge", TimeWarp.fixedDeltaTime * converterElectricConsumption);
             }
 
             if (mode == "Hydrogen -> Tritium" && II_Utilities.GetShipResourceAmount(vessel, "Hydrogen") > 0 && II_Utilities.GetShipResourceAmount(vessel, "Tritium") != II_Utilities.GetShipResourceMaxAmount(vessel, "Tritium"))
             {
                 part.RequestResource("Hydrogen", TimeWarp.fixedDeltaTime * 2);
                 part.RequestResource("Tritium", TimeWarp.fixedDeltaTime * -2);
-                part.RequestResource("ElectricCharge", converterElectricConsumption);
+                part.RequestResource("ElectricCharge", TimeWarp.fixedDeltaTime * converterElectricConsumption);
             }
 
             if (mode == "Deuterium -> Hydrogen" && II_Utilities.GetShipResourceAmount(vessel, "Deuterium") > 0 && II_Utilities.GetShipResourceAmount(vessel, "Hydrogen") != II_Utilities.GetShipResourceMaxAmount(vessel, "Hydrogen") && II_Utilities.GetShipResourceAmount(vessel, "ElectricCharge") != II_Utilities.GetShipResourceMaxAmount(vessel, "ElectricCharge"))
             {
-                part.RequestResource("Deuterium", TimeWarp.fixedDeltaTime * -3);
-                part.RequestResource("Hydrogen", TimeWarp.fixedDeltaTime * 2);
-                part.RequestResource("ElectricCharge", converterElectricConsumption);
+                part.RequestResource("Deuterium", TimeWarp.fixedDeltaTime * 3);
+                part.RequestResource("Hydrogen", TimeWarp.fixedDeltaTime * -2);
+                part.RequestResource("ElectricCharge", TimeWarp.fixedDeltaTime * converterElectricConsumption);
             }
 
             if (mode == "Tritium -> Hydrogen" && II_Utilities.GetShipResourceAmount(vessel, "Tritium") > 0 && II_Utilities.GetShipResourceAmount(vessel, "Hydrogen") != II_Utilities.GetShipResourceMaxAmount(vessel, "Hydrogen") && II_Utilities.GetShipResourceAmount(vessel, "ElectricCharge") != II_Utilities.GetShipResourceMaxAmount(vessel, "ElectricCharge"))
             {
-                part.RequestResource("Tritium", TimeWarp.fixedDeltaTime * -3);
-                part.RequestResource("Hydrogen", TimeWarp.fixedDeltaTime * 2);
-                part.RequestResource("ElectricCharge", converterElectricConsumption);
+                part.RequestResource("Tritium", TimeWarp.fixedDeltaTime * 3);
+                part.RequestResource("Hydrogen", TimeWarp.fixedDeltaTime * -2);
+                part.RequestResource("ElectricCharge", TimeWarp.fixedDeltaTime * converterElectricConsumption);
             }           
         }
     }

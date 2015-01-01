@@ -17,7 +17,7 @@
     <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\..\..\..\Documents\GitHub\ImpossibleInnovations\GameData\Impossible Innovations\Plugins\</OutputPath>
+    <OutputPath>..\..\..\..\..\..\Documents\GitHub\ImpossibleInnovations\GameData\ImpossibleInnovations\Plugins\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>

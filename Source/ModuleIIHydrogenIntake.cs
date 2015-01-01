@@ -54,7 +54,7 @@ namespace ImpossibleInnovations
         {
             if (intakeActive == "Active")
             {
-                part.RequestResource("Hydrogen", ((this.part.vessel.atmDensity * -1.4f) - 0.01f) * TimeWarp.fixedDeltaTime);
+                part.RequestResource("Hydrogen", ((this.part.vessel.atmDensity * -0.35f) - 0.0025f) * TimeWarp.fixedDeltaTime);
             }
         }
     }
