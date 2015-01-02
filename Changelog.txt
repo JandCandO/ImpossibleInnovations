@@ -1,3 +1,12 @@
+0.8.5:
+Added a CL-20 sepatron
+
+All code recompliled for KSP v0.90
+
+Fixed up the code for the hydrogen converter. There shouldn't be any more issues.
+
+Nerfed hydrogen intake to 1/4 of its previous performance.
+
 0.8:
 Added a stable, but unbalanced tech tree, powered by TechManager!
 
