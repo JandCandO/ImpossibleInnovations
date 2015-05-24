@@ -1,3 +1,28 @@
+0.8.6:
+Plugin recompiled for KSP 1.0.2
+
+All bottom nodes corrected to an angle of -1 instead of 1
+
+New Ionized Wing varieties (delta, small delta, and boards A-C)
+
+Old Ion Wing moved to legacy folder. It will load in old ships, but is not visible in editor
+
+Ionized Wings now display their current lift and electric consumption
+
+Ionized Wings no longer explode when there is no electricCharge, now they set their lift to less than a normal wing's
+
+Editor scene filters for Impossible Innovations (with a little icon I made)
+
+all stock counterpart textures switched to .dds. Now I can edit them to stand out!
+
+Added a CL-20 booster that looks like Squad's "flea" booster
+
+Hydrogen intake is nerfed slightly
+
+Some .dds textures like the dense solar panel are edited to make them different from stock
+
+Tech tree that is compatible with KSP 1.0 - no longer needs TechManger
+
 0.8.5:
 Added a CL-20 sepatron
 

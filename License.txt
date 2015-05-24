@@ -1,6 +1,5 @@
 Impossible Innovations is licensed under Creative Commons 4.0 Attribution-NonCommercial-ShareAlike License.
 
-Impossible Innovations includes the mod TechManager by anonish (under an MIT license) in its package. No alterations are made.
 Impossible Innovations includes the mod Module Manager by ialdabaoth (under the CC share-alike license) No alterations are made.
 Impossible Innovations includes the mod Tweakscale by Biotronic (under the WTFPL license)
 
