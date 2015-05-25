@@ -1,3 +1,8 @@
+0.8.7:
+The standard fusion engine is no longer buggy.
+
+All resources have a specific heat capacity value now.
+
 0.8.6:
 Plugin recompiled for KSP 1.0.2
 
