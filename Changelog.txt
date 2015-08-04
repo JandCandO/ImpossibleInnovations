@@ -1,3 +1,10 @@
+0.8.7.1:
+	Recomplie code for KSP version 1.0.4
+
+	Latest versions of Module Manager and Tweakscale included
+
+	The Tweakscale that comes with Impossible Innovations now only has configs for Impossible Innovations. If you want all the stock configs, go install Tweakscale.
+
 0.8.7:
 The standard fusion engine is no longer buggy.
 
@@ -158,7 +165,7 @@ Many, many, many bugs and problems are ironed out in this update thanks to Bacon
 +added a Heavy Craft to the ships folder
 
 0.3:
-Added a tech tree!! –(This took some doing :) )
+Added a tech tree!! ï¿½(This took some doing :) )
 Nerfed batteries.
 Removed deployable solars and replaced them with flat ones (this will break some craft)
 Added more command pods.
@@ -168,10 +175,10 @@ All command pods use tritium instead of electricity to generate torque.
 
 0.2.6:
 Added Tritium-Driven RCS, or TDRCS
-Moved ‘Ships’ folder outside of GameData (I derped up before)
+Moved ï¿½Shipsï¿½ folder outside of GameData (I derped up before)
 Fixed the names and descriptions of some parts
 Added names to all the tanks and engines! They are pretty bad names, but at least they are distingushable from each other now.
-(Accidentally) changed the texture on the Aluminum Strut! I was trying to clean up the files, and now the strut is pure white; I guess that means there is no texture…I’m just going to go with it. :)
+(Accidentally) changed the texture on the Aluminum Strut! I was trying to clean up the files, and now the strut is pure white; I guess that means there is no textureï¿½Iï¿½m just going to go with it. :)
 
 0.2.5.2:
 Patched for KSP .21 :D
@@ -180,7 +187,7 @@ I did some price balancing :P. You will find the fusion engines unchanged, but t
 I cleaned the files up a bit.
 Swapped out the probe engines for their new counterparts in stock KSP (I like the models better)
 Added a new tank and a new engine.
-I’m sure I tweaked other things, but this is all I can think of.
+Iï¿½m sure I tweaked other things, but this is all I can think of.
 
 0.2.5.1:
 Re-Organized the Files for a Near-Effortless Installation

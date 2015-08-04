@@ -1,8 +1,10 @@
 Impossible Innovations is licensed under Creative Commons 4.0 Attribution-NonCommercial-ShareAlike License.
 
 Impossible Innovations includes the mod Module Manager by ialdabaoth (under the CC share-alike license) No alterations are made.
-Impossible Innovations includes the mod Tweakscale by Biotronic (under the WTFPL license)
 
-Impossible Innovations uses code adapted from:
--Karbonite by RoverDude under the Creative Commons 4.0 Attribution-NonCommercial-ShareAlike License
-//For some code that checks the amount of a resource throughout the entire vessel. Couldn't have done it myself
+Impossible Innovations includes the mod Tweakscale by Biotronic (under the WTFPL license)
+  Under the WTFPL license, Impossible Innovations includes a version of Tweakscale with no configs other than the Impossible Innovations configs.
+  If you want all the other configs, go install Tweakscale.
+
+Impossible Innovations uses code adapted from Karbonite by RoverDude under the Creative Commons 4.0 Attribution-NonCommercial-ShareAlike License
+  I'm borrowing some code that checks the amount of a resource throughout the entire vessel. Saved me some time.
