@@ -1,3 +1,8 @@
+0.8.7.2:
+	Fixed the dead weight's bottom node to have a negative angle. I checked, and that's the last one. (Hopefully)
+
+	Updated the included Module Manager version.
+
 0.8.7.1:
 	Recomplie code for KSP version 1.0.4
 
