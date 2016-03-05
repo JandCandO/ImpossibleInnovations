@@ -1,3 +1,19 @@
+0.8.7.3:
+	Recomiled for KSP version 1.0.5. I know it's very late, but this will make the transition to 1.1 easier.
+
+	Ion wings now have action groups for On, Off, and Toggle
+
+	The Toggle Button is available in-flight
+
+	New readouts for Ion Wing's State
+
+	New behavior for Ion Wings:
+		When electricCharge runs out, the wings shut off
+		They must be manually re-activated to work again
+	This is as opposed to the previous behavior, where they would rapidly switch on and off as electricCharge began trickling in
+
+	The Tweakscale and Module Manager packages included in the package are up-to-date as well
+
 0.8.7.2:
 	Fixed the dead weight's bottom node to have a negative angle. I checked, and that's the last one. (Hopefully)
 
