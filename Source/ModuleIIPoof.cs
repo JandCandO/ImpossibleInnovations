@@ -7,6 +7,7 @@ namespace ImpossibleInnovations
         [KSPField(guiActive = true, guiActiveEditor = false, guiName = "Saftey", isPersistant = true)]
         public string poofSaftey = "On";
 
+        #region Functions
         public void poofSafteyOn()
         {
             poofSaftey = "On";
@@ -37,7 +38,9 @@ namespace ImpossibleInnovations
         {
             if (poofSaftey == "Off") this.part.explode();
         }
+        #endregion
 
+        #region Action Groups
         [KSPAction("Toggle Saftey")]
         public void actionToggleSaftey(KSPActionParam param)
         {
@@ -61,5 +64,6 @@ namespace ImpossibleInnovations
         {
             poof();
         }
+        #endregion
     }
 }

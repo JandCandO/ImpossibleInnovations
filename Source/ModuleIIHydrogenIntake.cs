@@ -7,6 +7,7 @@ namespace ImpossibleInnovations
         [KSPField(guiActive = true, guiActiveEditor = false, guiName = "State", isPersistant = false)]
         public string intakeActive = "Active";
 
+        #region Functions
         public void filterOn()
         {
             intakeActive = "Active";
@@ -30,8 +31,10 @@ namespace ImpossibleInnovations
             {
                 filterOn();              
             }
-        }        
+        }
+        #endregion
 
+        #region Action Groups
         [KSPAction("Toggle Collector")]
         public void actionToggleCollector(KSPActionParam param)
         {
@@ -48,7 +51,8 @@ namespace ImpossibleInnovations
         public void actionTurnCollectorOff(KSPActionParam param)
         {
             filterOff();
-        }    
+        }
+        #endregion
 
         public void FixedUpdate()
         {
