@@ -1,3 +1,6 @@
+0.8.7.4:
+	Removed Thumbs.db
+
 0.8.7.3:
 	Recomiled for KSP version 1.0.5. I know it's very late, but this will make the transition to 1.1 easier.
 
