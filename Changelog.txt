@@ -3,6 +3,10 @@
 	Recompiled code for KSP version 1.2
 	Increased hydrogen tank capacity from 2000 to 3000
 	Implemented a rough compatibility with the Community Tech Tree
+	Fixed some parts not loading in KSP 1.2
+	Re-assigned part VAB categories to make them easier to find in 1.2
+	Fixed TweakScale configs for the CL-20 Flea engine
+	Fixed TweakScale configs for the Dead Weight
 
 0.8.7.5:
 	Updated all dependent mods that come in package
