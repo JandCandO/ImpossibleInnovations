@@ -2,6 +2,7 @@
 	Updated depended mods in package for those who aren't using CKAN
 	Recompiled code for KSP version 1.2
 	Increased hydrogen tank capacity from 2000 to 3000
+	Implemented a rough compatibility with the Community Tech Tree
 
 0.8.7.5:
 	Updated all dependent mods that come in package
